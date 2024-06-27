@@ -1,46 +1,34 @@
 /* styles.css */
 body {
-    font-family: 'Comic Sans MS', sans-serif;
-    background-color: #FFC0CB; /* Barbie pink background */
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #ff4081, #f50057); /* Futuristic gradient background */
     color: #fff;
-    text-align: center;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #FF69B4; /* Darker pink for the header */
-    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    margin: 0;
     font-size: 3em;
+    font-weight: bold;
 }
 
-.gallery {
-    padding: 20px;
+.gallery .card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.gallery .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
-.photo-item {
-    margin: 15px;
-    text-align: center;
-}
-
-.photo-item img {
-    max-width: 300px;
-    height: auto;
-    border: 2px solid #FF69B4;
-    border-radius: 10px;
-}
-
-.photo-item p {
-    margin-top: 10px;
-    color: #FF69B4;
+.card-text {
+    color: #ffeb3b;
 }
