@@ -18,24 +18,8 @@ h1 {
     font-size: 3em;
 }
 
-.intro {
+.gallery {
     padding: 20px;
-}
-
-nav {
-    margin: 20px 0;
-}
-
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #FF1493; /* Pink links */
-    font-weight: bold;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 .gallery-container {
@@ -44,10 +28,19 @@ img {
     justify-content: center;
 }
 
-.gallery-container img {
-    margin: 10px;
+.photo-item {
+    margin: 15px;
+    text-align: center;
+}
+
+.photo-item img {
     max-width: 300px;
     height: auto;
     border: 2px solid #FF69B4;
     border-radius: 10px;
+}
+
+.photo-item p {
+    margin-top: 10px;
+    color: #FF69B4;
 }
